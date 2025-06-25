@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // More modern target
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true, // Keep strict mode
+    "noImplicitAny": true, // Enforce type checking
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true, // Keep skipLibCheck
+    "forceConsistentCasingInFileNames": true, // Keep forceConsistentCasingInFileNames
+    "allowJs": true // Allow JavaScript files
+  },
+  "include": ["src/**/*"], // Ensure only src files are included
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"] // Exclude tests and node_modules
+}
